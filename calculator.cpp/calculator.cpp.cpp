@@ -62,10 +62,15 @@ int main()
 			input();
 			cout << "Hasil pengurangan =" << pengurangan(bilSatu, bilDua) << endl;
 			break;
+		case 5:
+			break;
+			default;
+			cout << "pilihan tidak ada" << endl;
+			break;
 		}
 
 
 	
-	}
+	} while (pilihan != 5);
 
 }
