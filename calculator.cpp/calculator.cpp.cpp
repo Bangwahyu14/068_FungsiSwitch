@@ -34,7 +34,20 @@ int main()
 
 	do
 	{
-		cout <<"============================="
+		cout << "=============================" << endl;
+		cout << "MENU" << endl;
+		cout << "1.penjumlahan " << endl;
+		cout << "2.pembagian " << endl;
+		cout << "3.perkalian " << endl;
+		cout << "4.pengurangan " << endl;
+		cout << "5. exit " << endl;
+		cout << "Masukaan Pilihan 1/2/3/4/5" << endl;
+		cin >> pilihan;
+		
+		switch (pilihan)
+
+
+	
 	}
 
 }
