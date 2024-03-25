@@ -10,3 +10,8 @@ void input()
 	cout << "Masukan Bilanan kedua = ";
 	cin >> bilDua;
 }
+
+float penjumlahan(float a, float b) 
+{
+	return a + b;
+}
