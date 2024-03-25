@@ -44,7 +44,13 @@ int main()
 		cout << "Masukaan Pilihan 1/2/3/4/5" << endl;
 		cin >> pilihan;
 		
-		switch (pilihan)
+		switch (pilihan) 
+		{
+		case 1:
+			input();
+			cout << "Hasil penjulahan =" << penjumlahan(bilSatu, bilDua) << endl;
+			break;
+		}
 
 
 	
